@@ -6,4 +6,8 @@ edition = "2021"
 [dependencies]
 bevy = "0.15.3"
 bevy_rapier2d = "0.29.0"
-rand = "0.9.0"
+bevy_ui = "0.15.3"
+getrandom = { version = "0.2", features = ["js"] }
+
+[lib]
+crate-type = ["cdylib"]
